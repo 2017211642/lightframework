@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="framework1:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="25b5b519-8af8-4b01-963b-e42e2875af86" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/framework1_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/75633.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/123.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readma.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/framework/ProxyFactory/ProxyClassLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/framework/ProxyFactory/ProxyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/framework/core/ClassLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/framework/test/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/123.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/framework/ProxyFactory/ProxyClassLoader$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/framework/ProxyFactory/ProxyClassLoader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/framework/ProxyFactory/ProxyFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/framework/core/ClassLoader$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/framework/core/ClassLoader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/framework/damo/TestController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/framework/damo/test/TestService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/framework/test/test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/orglightframwork/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/orglightframwork/WEB-INF/classes/org/framework/ProxyFactory/ProxyClassLoader$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/orglightframwork/WEB-INF/classes/org/framework/ProxyFactory/ProxyClassLoader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/orglightframwork/WEB-INF/classes/org/framework/ProxyFactory/ProxyFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/orglightframwork/WEB-INF/classes/org/framework/annotation/Autowired.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/orglightframwork/WEB-INF/classes/org/framework/annotation/Controller.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/orglightframwork/WEB-INF/classes/org/framework/annotation/HttpMethod.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/orglightframwork/WEB-INF/classes/org/framework/annotation/RequestMapping.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/orglightframwork/WEB-INF/classes/org/framework/annotation/ResponeBody.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/orglightframwork/WEB-INF/classes/org/framework/annotation/Service.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/orglightframwork/WEB-INF/classes/org/framework/aspect/AspectFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/orglightframwork/WEB-INF/classes/org/framework/aspect/annotation/After.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/orglightframwork/WEB-INF/classes/org/framework/aspect/annotation/Around.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/orglightframwork/WEB-INF/classes/org/framework/aspect/annotation/Aspect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/orglightframwork/WEB-INF/classes/org/framework/aspect/annotation/Before.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/orglightframwork/WEB-INF/classes/org/framework/aspect/annotation/PointCut.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/orglightframwork/WEB-INF/classes/org/framework/bean/Context.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/orglightframwork/WEB-INF/classes/org/framework/bean/ResponeBody.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/orglightframwork/WEB-INF/classes/org/framework/bean/RouteInfor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/orglightframwork/WEB-INF/classes/org/framework/core/BeanFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/orglightframwork/WEB-INF/classes/org/framework/core/ClassLoader$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/orglightframwork/WEB-INF/classes/org/framework/core/ClassLoader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/orglightframwork/WEB-INF/classes/org/framework/core/Handler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/orglightframwork/WEB-INF/classes/org/framework/core/PropertieLoader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/orglightframwork/WEB-INF/classes/org/framework/core/RouteEngine.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/orglightframwork/WEB-INF/classes/org/framework/damo/TestController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/orglightframwork/WEB-INF/classes/org/framework/damo/test/TestService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/orglightframwork/WEB-INF/classes/org/framework/servlet/DispathcerServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/orglightframwork/WEB-INF/classes/org/framework/test/aspect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/orglightframwork/WEB-INF/classes/org/framework/test/test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/orglightframwork/WEB-INF/classes/org/framework/util/ReflectUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/orglightframwork/WEB-INF/classes/org/framework/util/ResponeUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/orglightframwork/WEB-INF/classes/org/framework/util/SetParameModelUtil$1$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/orglightframwork/WEB-INF/classes/org/framework/util/SetParameModelUtil$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/orglightframwork/WEB-INF/classes/org/framework/util/SetParameModelUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/orglightframwork/WEB-INF/classes/org/framework/util/qwetfw.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/orglightframwork/WEB-INF/classes/test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/orglightframwork/WEB-INF/lib/apiguardian-api-1.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/orglightframwork/WEB-INF/lib/asm-4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/orglightframwork/WEB-INF/lib/fastjson-1.2.41.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/orglightframwork/WEB-INF/lib/javax.servlet-api-3.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/orglightframwork/WEB-INF/lib/junit-jupiter-api-5.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/orglightframwork/WEB-INF/lib/junit-platform-commons-1.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/orglightframwork/WEB-INF/lib/opentest4j-1.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/orglightframwork/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/orglightframwork/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/framework_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/framework1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/framework/ProxyFactory/CGlibProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/framework/ProxyFactory/CGlibProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/framework/aspect/AspectFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/framework/aspect/AspectFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/framework/bean/Context.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/framework/bean/Context.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/framework/bean/RouteInfor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/framework/bean/RouteInfor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/framework/core/BeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/framework/core/BeanFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/framework/core/Handler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/framework/core/Handler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/framework/core/PropertieLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/framework/core/PropertieLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/framework/core/RouteEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/framework/core/RouteEngine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/framework/servlet/DispathcerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/framework/servlet/DispathcerServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/framework/test/aspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/framework/test/aspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/framework/util/ReflectUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/framework/util/ReflectUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/framework/util/SetParameModelUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/framework/util/SetParameModelUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/test.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/classes/test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/framework/ProxyFactory/CGlibProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/framework/ProxyFactory/CGlibProxy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/framework/aspect/AspectFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/framework/aspect/AspectFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/framework/bean/Context.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/framework/bean/Context.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/framework/bean/RouteInfor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/framework/bean/RouteInfor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/framework/core/BeanFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/framework/core/BeanFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/framework/core/Handler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/framework/core/Handler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/framework/core/PropertieLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/framework/core/PropertieLoader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/framework/core/RouteEngine.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/framework/core/RouteEngine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/framework/servlet/DispathcerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/framework/servlet/DispathcerServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/framework/test/aspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/framework/test/aspect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/framework/util/ReflectUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/framework/util/ReflectUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/framework/util/SetParameModelUtil$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/framework/util/SetParameModelUtil$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/framework/util/SetParameModelUtil$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/framework/util/SetParameModelUtil$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/framework/util/SetParameModelUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/framework/util/SetParameModelUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-10" />
+    <option name="width" value="1940" />
+    <option name="height" value="1060" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://H:/MyIdeaData2019-2/hc-framework/orglightframwork/src/main/java/org/framework/core/PropertieLoader.java" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552924291557" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15429688" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\MyIdeaData2019-2\hc-framework\orglightframwork\src\main" />
+      <recent name="H:\MyIdeaData2019-2\hc-framework\orglightframwork\src\main\webapp\java\org\framework" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\MyIdeaData2019-2\hc-framework\orglightframwork\src\main\webapp\java\org\framework\annotation" />
+      <recent name="H:\MyIdeaData2019-2\hc-framework\orglightframwork\src\main\webapp" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.framework.core" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Unnamed">
+    <configuration name="ClassLoader" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="orglightframwork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.framework.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="org.framework.core.ClassLoader" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClassLoader.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="orglightframwork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.framework.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.framework.core" />
+      <option name="MAIN_CLASS_NAME" value="org.framework.core.ClassLoader" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PropertieLoader.getPropertis" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="orglightframwork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="core" />
+      <option name="MAIN_CLASS_NAME" value="core.PropertieLoader" />
+      <option name="METHOD_NAME" value="getPropertis" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="aspect.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="orglightframwork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.framework.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.framework.test" />
+      <option name="MAIN_CLASS_NAME" value="org.framework.test.aspect" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.32" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/framework1_war_exploded/" />
+      <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="framework1:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/framework1_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_orglightframwork" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="55858" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="orglightframwork:war exploded" />
+          <artifact name="framework1:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.PropertieLoader.getPropertis" />
+      <item itemvalue="JUnit.ClassLoader.test" />
+      <item itemvalue="JUnit.ClassLoader" />
+      <item itemvalue="JUnit.aspect.test" />
+      <item itemvalue="Tomcat Server.Unnamed" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.aspect.test" />
+        <item itemvalue="JUnit.ClassLoader" />
+        <item itemvalue="JUnit.ClassLoader.test" />
+        <item itemvalue="JUnit.PropertieLoader.getPropertis" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.1027027" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\75633\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="25b5b519-8af8-4b01-963b-e42e2875af86" name="Default Changelist" comment="" />
+      <created>1552205944947</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552205944947</updated>
+      <workItem from="1552205948021" duration="19116000" />
+      <workItem from="1552309040072" duration="763000" />
+      <workItem from="1552312434988" duration="5544000" />
+      <workItem from="1552402552727" duration="1603000" />
+      <workItem from="1552404170632" duration="561000" />
+      <workItem from="1552404909944" duration="2289000" />
+      <workItem from="1552475576985" duration="14609000" />
+      <workItem from="1552540545031" duration="1820000" />
+      <workItem from="1552645748569" duration="18815000" />
+      <workItem from="1552702865594" duration="21633000" />
+      <workItem from="1552793238295" duration="18706000" />
+      <workItem from="1552977080722" duration="687000" />
+      <workItem from="1552979549969" duration="1500000" />
+      <workItem from="1552993001427" duration="596000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="PropertieLoader_getPropertis - 2019.03.10 at 17h 04m 33s.xml">
+      <configuration name="PropertieLoader.getPropertis" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PropertieLoader_getPropertis - 2019.03.10 at 17h 04m 50s.xml">
+      <configuration name="PropertieLoader.getPropertis" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClassLoader_test - 2019.03.11 at 23h 57m 04s.xml">
+      <configuration name="ClassLoader.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClassLoader_test - 2019.03.11 at 23h 58m 38s.xml">
+      <configuration name="ClassLoader.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClassLoader_test - 2019.03.11 at 23h 59m 17s.xml">
+      <configuration name="ClassLoader.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClassLoader - 2019.03.12 at 23h 27m 17s.xml">
+      <configuration name="ClassLoader" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="aspect_test - 2019.03.17 at 21h 22m 00s.xml">
+      <configuration name="aspect.test" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="213" y="121" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584698422629">
+      <screen x="70" y="27" width="1370" height="873" />
+    </state>
+    <state x="213" y="121" key="#com.intellij.execution.impl.EditConfigurationsDialog/70.27.1370.873@70.27.1370.873" timestamp="1584698422629" />
+    <state x="596" y="355" width="308" height="223" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1584697089590">
+      <screen x="70" y="27" width="1370" height="873" />
+    </state>
+    <state x="596" y="355" width="308" height="223" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/70.27.1370.873@70.27.1370.873" timestamp="1584697089590" />
+    <state x="533" y="156" width="424" height="628" key="FileChooserDialogImpl" timestamp="1584698169510">
+      <screen x="70" y="27" width="1370" height="873" />
+    </state>
+    <state x="533" y="156" width="424" height="628" key="FileChooserDialogImpl/70.27.1370.873@70.27.1370.873" timestamp="1584698169510" />
+    <state width="1161" height="305" key="GridCell.Tab.0.bottom" timestamp="1584698522505">
+      <screen x="70" y="27" width="1370" height="873" />
+    </state>
+    <state width="1161" height="305" key="GridCell.Tab.0.bottom/70.27.1370.873@70.27.1370.873" timestamp="1584698522505" />
+    <state width="1161" height="305" key="GridCell.Tab.0.center" timestamp="1584698522505">
+      <screen x="70" y="27" width="1370" height="873" />
+    </state>
+    <state width="1161" height="305" key="GridCell.Tab.0.center/70.27.1370.873@70.27.1370.873" timestamp="1584698522505" />
+    <state width="1161" height="305" key="GridCell.Tab.0.left" timestamp="1584698522504">
+      <screen x="70" y="27" width="1370" height="873" />
+    </state>
+    <state width="1161" height="305" key="GridCell.Tab.0.left/70.27.1370.873@70.27.1370.873" timestamp="1584698522504" />
+    <state width="1161" height="305" key="GridCell.Tab.0.right" timestamp="1584698522505">
+      <screen x="70" y="27" width="1370" height="873" />
+    </state>
+    <state width="1161" height="305" key="GridCell.Tab.0.right/70.27.1370.873@70.27.1370.873" timestamp="1584698522505" />
+    <state width="1161" height="305" key="GridCell.Tab.1.bottom" timestamp="1584698522078">
+      <screen x="70" y="27" width="1370" height="873" />
+    </state>
+    <state width="1161" height="305" key="GridCell.Tab.1.bottom/70.27.1370.873@70.27.1370.873" timestamp="1584698522078" />
+    <state width="1161" height="305" key="GridCell.Tab.1.center" timestamp="1584698522075">
+      <screen x="70" y="27" width="1370" height="873" />
+    </state>
+    <state width="1161" height="305" key="GridCell.Tab.1.center/70.27.1370.873@70.27.1370.873" timestamp="1584698522075" />
+    <state width="1161" height="305" key="GridCell.Tab.1.left" timestamp="1584698522074">
+      <screen x="70" y="27" width="1370" height="873" />
+    </state>
+    <state width="1161" height="305" key="GridCell.Tab.1.left/70.27.1370.873@70.27.1370.873" timestamp="1584698522074" />
+    <state width="1161" height="305" key="GridCell.Tab.1.right" timestamp="1584698522075">
+      <screen x="70" y="27" width="1370" height="873" />
+    </state>
+    <state width="1161" height="305" key="GridCell.Tab.1.right/70.27.1370.873@70.27.1370.873" timestamp="1584698522075" />
+    <state width="1161" height="305" key="GridCell.Tab.2.bottom" timestamp="1584698522074">
+      <screen x="70" y="27" width="1370" height="873" />
+    </state>
+    <state width="1161" height="305" key="GridCell.Tab.2.bottom/70.27.1370.873@70.27.1370.873" timestamp="1584698522074" />
+    <state width="1161" height="305" key="GridCell.Tab.2.center" timestamp="1584698522073">
+      <screen x="70" y="27" width="1370" height="873" />
+    </state>
+    <state width="1161" height="305" key="GridCell.Tab.2.center/70.27.1370.873@70.27.1370.873" timestamp="1584698522073" />
+    <state width="1161" height="305" key="GridCell.Tab.2.left" timestamp="1584698522073">
+      <screen x="70" y="27" width="1370" height="873" />
+    </state>
+    <state width="1161" height="305" key="GridCell.Tab.2.left/70.27.1370.873@70.27.1370.873" timestamp="1584698522073" />
+    <state width="1161" height="305" key="GridCell.Tab.2.right" timestamp="1584698522073">
+      <screen x="70" y="27" width="1370" height="873" />
+    </state>
+    <state width="1161" height="305" key="GridCell.Tab.2.right/70.27.1370.873@70.27.1370.873" timestamp="1584698522073" />
+    <state x="288" y="121" width="924" height="691" key="Maven.ArtifactSearchDialog" timestamp="1584698302251">
+      <screen x="70" y="27" width="1370" height="873" />
+    </state>
+    <state x="288" y="121" width="924" height="691" key="Maven.ArtifactSearchDialog/70.27.1370.873@70.27.1370.873" timestamp="1584698302251" />
+    <state x="335" y="121" width="847" height="698" key="NewModule_or_Project.wizard" timestamp="1584698196528">
+      <screen x="70" y="27" width="1370" height="873" />
+    </state>
+    <state x="335" y="121" width="847" height="698" key="NewModule_or_Project.wizard/70.27.1370.873@70.27.1370.873" timestamp="1584698196528" />
+    <state x="238" y="41" width="1024" height="852" key="SettingsEditor" timestamp="1584698206822">
+      <screen x="70" y="27" width="1370" height="873" />
+    </state>
+    <state x="238" y="41" width="1024" height="852" key="SettingsEditor/70.27.1370.873@70.27.1370.873" timestamp="1584698206822" />
+  </component>
+</project>

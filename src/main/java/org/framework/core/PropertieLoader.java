@@ -7,7 +7,6 @@ import java.io.InputStream;
 import java.util.HashSet;
 import java.util.Properties;
 import java.util.Set;
-
 /**
  *
  * 想法太高，能力太弱。
@@ -43,7 +42,6 @@ public class PropertieLoader {
             for (File f : files) {
                 filePath.add(f.getPath());
             }
-        System.out.println("file path:"+filePath.size());
     }
     /**
      * 加载配置文件

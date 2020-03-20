@@ -4,7 +4,6 @@ import org.framework.annotation.HttpMethod;
 import org.framework.annotation.RequestMapping;
 import org.framework.bean.RouteInfor;
 import org.framework.util.SetParameModelUtil;
-
 import java.lang.reflect.Method;
 import java.util.HashMap;
 import java.util.Map;
@@ -17,6 +16,7 @@ import java.util.Set;
 public class RouteEngine {
 
     private static RouteEngine routeEngine;//单例
+
     private static  Map<RouteInfor, Handler> handlerMap = null; //单例模式
     private static Map<String, RouteInfor> routUrl = null;//
     private BeanFactory beanFactory = null;
@@ -54,6 +54,7 @@ public RouteEngine(){
          String prefix = "";
          if(null != clazz){
              System.out.println("实例:"+clazz.getName());
+
              //看这个类是否有这个注解
              RequestMapping requestMapping = clazz.getAnnotation(RequestMapping.class);
              if(requestMapping != null){
@@ -73,7 +74,6 @@ public RouteEngine(){
                      String[] paramsName = SetParameModelUtil.getMethodParameterNamesByAsm4(clazz,method);
                      handler.setParamsName(paramsName);//保存类的参数的名字,按顺序保存的
                      routUrl.put(prefix,routeInfor);
-                     System.out.println("router:"+routeInfor);
                      handlerMap.put(routeInfor,handler);//添加进路由表
                  }
              }

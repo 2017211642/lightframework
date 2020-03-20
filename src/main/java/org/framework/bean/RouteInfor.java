@@ -3,13 +3,11 @@ package org.framework.bean;
 import org.framework.annotation.HttpMethod;
 
 /**
- *
  * 记录controller的路由信息
  * httpMethod  请求方法（get ,post ,and so on）
  * url  请求的url
  * urlParams  url 携带的参数
- *
- * */
+ */
 public class RouteInfor {
     private HttpMethod httpMethod;
     private String url;
@@ -30,11 +28,14 @@ public class RouteInfor {
     public void setUrl(String url) {
         this.url = url;
     }
-public RouteInfor(){
 
-}
-public RouteInfor(String url, HttpMethod httpMethod){
+    public RouteInfor() {
+
+    }
+
+    public RouteInfor(String url, HttpMethod httpMethod) {
+
         this.url = url;
         this.httpMethod = httpMethod;
-}
+    }
 }

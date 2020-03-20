@@ -5,11 +5,13 @@ import org.framework.ProxyFactory.JDKProxy;
 import org.framework.aspect.annotation.Aspect;
 import org.framework.aspect.annotation.PointCut;
 import org.framework.core.BeanClassLoader;
-import org.framework.demo.TestSer;
-import org.framework.demo.TestService;
-
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Method;
+import org.framework.ProxyFactory.ProxyClassLoader;
+import org.framework.core.ClassLoader;
+
+import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
@@ -46,10 +48,10 @@ public class AspectFactory {
                 Class<? extends Annotation> annotationType = annotation.annotationType();
                 if (annotationType.equals(Aspect.class)) {
                     loadPointCutPagePath(clazz);
-                    break;
                 }
             }
         }
+
     }
 
     /**

@@ -1,8 +1,5 @@
 package org.framework.util;
 
-import net.sf.cglib.proxy.Enhancer;
-import org.framework.ProxyFactory.BeanProxy;
-
 public class ReflectUtil {
     public static Object newInstance(Class<?> clazz){
         Object object = null;
@@ -26,5 +23,4 @@ public class ReflectUtil {
             return null;
         }
     }
-
 }

@@ -1,5 +1,6 @@
 package org.framework.core;
 
+
 import org.framework.annotation.Autowired;
 import org.framework.annotation.Service;
 
@@ -8,6 +9,8 @@ import java.lang.reflect.Field;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
+import java.util.HashSet;
+import org.framework.util.ReflectUtil;
 
 
 /***
@@ -33,7 +36,6 @@ public class BeanFactory {
     public  Map<Class<?>,Object> getControllerMap(){
         return controller;
     }
-
     public BeanFactory(){
         beanClassLoader = BeanClassLoader.instance();
         classSet = beanClassLoader.getClassSet();
