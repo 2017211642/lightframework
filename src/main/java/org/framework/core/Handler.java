@@ -70,21 +70,16 @@ public class Handler {
             try {
                 Object[] objects = new Object[enumeration.length];
                 objects = SetParameModelUtil.toObjectArrys(request,response,this,c.getParams(),method,c,objects);
-                System.out.println("get params :"+objects);
                 if(objects == null && c.getParams().size() > 0){
                     return "405 erro";
                 }else if(objects == null && c.getParams().size() == 0) {
-                    System.out.println("no params");
                     o = method.invoke(controller);
                 }else{
-                    System.out.println("hava params");
                     o = method.invoke(controller,objects);
                 }
-               // responeBody = (ResponeBody)o;
             } catch (Exception e) {
-               //return o.toString();
-                System.out.println(e.getCause());
-                return "return default type";
+                System.out.println("错误请求,找到处理类了,参数找不到之类的");
+                return "500 Error Service";
             }
             return o.toString();
         }

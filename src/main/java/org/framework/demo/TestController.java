@@ -13,10 +13,10 @@ public class TestController {
     @Autowired
     TestService testService;
 
-    @RequestMapping(value = "/helloword")
+    @RequestMapping(value = "/helloworld")
     public String getTest(String name, HttpServletRequest re){
         System.out.println("join helloWolrd !!!");
-
+        testService.hello();
         return "Hello Wolrd:"+name+",request:"+re;
     }
 }

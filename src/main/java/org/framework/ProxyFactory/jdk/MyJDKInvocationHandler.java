@@ -1,14 +1,14 @@
-package org.framework.ProxyFactory;
+package org.framework.ProxyFactory.jdk;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 
-public class MyInvocationHandler implements InvocationHandler {
+public class MyJDKInvocationHandler implements InvocationHandler {
 
     /** 目标对象 */
     private Object target;
 
-    public MyInvocationHandler(Object target){
+    public MyJDKInvocationHandler(Object target){
         this.target = target;
     }
 

@@ -11,6 +11,10 @@
       classpath:test.properties
     </param-value>
   </context-param>
+  <!--监听器-->
+  <listener>
+    <listener-class>org.framework.core.StartListener</listener-class>
+  </listener>
 <servlet>
   <servlet-name>DispathcerServlet</servlet-name>
   <servlet-class>org.framework.servlet.DispathcerServlet</servlet-class>
